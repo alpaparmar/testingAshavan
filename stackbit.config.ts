@@ -24,7 +24,7 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }],
+    // modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }],
     sitemap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
@@ -44,7 +44,7 @@ const config = defineStackbitConfig({
             // console.info('resultData', resultData)
             const finalResult = resultData && resultData?.replace('index', '')
             return {
-                stableId: "/" + resultData,
+                stableId: document?.id,
                 urlPath: finalResult && finalResult?.replace('\\', '/'),
                 document,
                 isHomePage: resultData === "index"
