@@ -29,10 +29,7 @@ const config = defineStackbitConfig({
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
-            console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
-            //@ts-ignore
-            const filePath = document.context.filePath.replace('\\', '/')
-            console.info('->>>>>>>>>>>>>>>>>>>>>>', filePath)
+            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
             // const slug = getLocalizedFieldForLocale(document.fields.slug);
             // console.log('slug->>>>>>>>>>>>>>>>>>>>>', slug);
             const resultData = extractPath(document.manageUrl)
@@ -44,14 +41,11 @@ const config = defineStackbitConfig({
             //@ts-ignore
             // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
 
-            // console.info('resultData', resultData)
             const finalResult = resultData && resultData?.replace('index', '')
-            console.info('finalresult0>>>>>>>', finalResult?.replace('\\', '/'))
             return {
                 stableId: document?.id,
-                urlPath: finalResult && finalResult?.replace('\\', '/'),
+                urlPath: "/" + finalResult && finalResult?.replace('\\', '/'),
                 document,
-                filePath: filePath,
                 isHomePage: resultData === "index"
             };
         }).filter(Boolean) as SiteMapEntry[];
