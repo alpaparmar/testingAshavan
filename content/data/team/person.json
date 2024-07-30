@@ -1,0 +1,22 @@
+{
+    "firstName": "Cyrus",
+    "lastName": "Bahrassa",
+    "bio": "[Cyrus Bahrassa](https://www.linkedin.com/in/cyrus-bahrassa) is the Founder and CEO of Ashavan. Cyrus began his career in the healthcare IT industry at Epic, where he led technical implementations at academic and community health systems for seven years. He moved on to a healthcare integration software company and led a team that enabled the success of every department by arming them with the knowledge of how to integrate with EHRs and other vendors. But he sought a way to make a greater impact on the world and started Ashavan to achieve that goal.\n\nIn his free time, you can find Cyrus reading a good book, exploring hiking trails, volunteering in the community, or discussing politics and current events.\n",
+    "image": {
+        "url": "/images/Cyrus-Bahrassa-headshot-1663045200.jpg",
+        "altText": "Cyrus Bahrassa"
+    },
+    "type": "Person",
+    "role": "Founder and CEO",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "LinkedIn",
+            "url": "https://www.linkedin.com/in/cyrus-bahrassa",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": "CyrusLinkedIn"
+        }
+    ]
+}

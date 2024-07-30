@@ -1,0 +1,204 @@
+{
+    "type": "Config",
+    "favicon": "/images/Favicon-1646114400.png",
+    "header": {
+        "type": "Header",
+        "headerVariant": "variant-c",
+        "primaryColors": "colors-a",
+        "secondaryColors": "colors-b",
+        "title": "Ashavan",
+        "isTitleVisible": false,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "showIcon": false
+            },
+            {
+                "type": "Link",
+                "label": "Services",
+                "url": "/services",
+                "showIcon": true,
+                "subLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Partners",
+                        "url": "/partners",
+                        "showIcon": false
+                    }
+                ],
+                "icon": "dropdown"
+            },
+            {
+                "label": "Testimonials",
+                "url": "/testimonials",
+                "showIcon": false,
+                "type": "Link"
+            },
+            {
+                "label": "Success Stories",
+                "url": "/success-stories",
+                "showIcon": false,
+                "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "Nonstop Interop",
+                "url": "/blog",
+                "showIcon": true,
+                "icon": "dropdown",
+                "iconPosition": "right",
+                "subLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Subscribe",
+                        "url": "https://subscribepage.io/nonstop-interop",
+                        "showIcon": false,
+                        "rel": "noopener",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "type": "Link",
+                "label": "About Us",
+                "url": "/about",
+                "showIcon": true,
+                "icon": "dropdown",
+                "iconPosition": "right",
+                "subLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Contact",
+                        "url": "/contact",
+                        "showIcon": false
+                    }
+                ]
+            }
+        ],
+        "secondaryLinks": [
+            {
+                "type": "Link",
+                "altText": "Search this site",
+                "url": "/search",
+                "target": "_blank",
+                "rel": "noopener",
+                "showIcon": true,
+                "icon": "magnifyingGlass",
+                "iconPosition": "right",
+                "elementId": "siteSearch",
+                "label": "",
+                "hoverText": "Search this site"
+            },
+            {
+                "type": "Button",
+                "label": "Let's Meet",
+                "url": "https://calendly.com/ashavan/ashavan-initial-conversation",
+                "altText": "Let's meet",
+                "style": "primary",
+                "rel": "noopener",
+                "target": "_blank",
+                "showIcon": true,
+                "icon": "newTab"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-5",
+                    "pb-5",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        },
+        "logo": {
+            "altText": "Ashavan",
+            "elementId": "",
+            "styles": {
+                "self": {
+                    "opacity": 100
+                }
+            },
+            "type": "ImageBlock",
+            "url": "/images/Logo-1646114400.webp"
+        }
+    },
+    "footer": {
+        "type": "Footer",
+        "colors": "colors-f",
+        "primaryLinks": [],
+        "socialLinks": [],
+        "legalLinks": [
+            {
+                "type": "Link",
+                "altText": "LinkedIn",
+                "url": "https://www.linkedin.com/company/ashavanllc",
+                "target": "_blank",
+                "rel": "noopener",
+                "showIcon": true,
+                "icon": "linkedin",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "altText": "RSS feed",
+                "url": "/blogRSS.xml",
+                "target": "",
+                "rel": "",
+                "showIcon": true,
+                "icon": "rss",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Privacy Policy",
+                "url": "/privacy-policy"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-4",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        },
+        "copyrightText": "All names, trademarks, and logos are property of their respective owners and do not imply a partnership or endorsement.  \n[External Link](https://icons8.com/icon/82787/external-link) icon by [Icons8](https://icons8.com). Other icons made by [Freepik](https://www.flaticon.com/authors/freepik), [Smashicons](https://www.flaticon.com/authors/smashicons), and [Nhor Phai](https://www.flaticon.com/authors/nhor-phai) from [Flaticon](https://www.flaticon.com).  \n© 2022 Ashavan, LLC. All rights reserved.\n"
+    },
+    "titleSuffix": "Ashavan",
+    "defaultSocialImage": "/images/Logo-og-image-1646114400.png",
+    "defaultMetaTags": [
+        {
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        },
+        {
+            "property": "twitter:site",
+            "content": "@ashavanllc"
+        },
+        {
+            "property": "og:image:alt",
+            "content": "Ashavan"
+        },
+        {
+            "property": "og:image:width",
+            "content": "1199"
+        },
+        {
+            "property": "og:image:height",
+            "content": "628"
+        },
+        {
+            "property": "og:type",
+            "content": "website"
+        }
+    ]
+}

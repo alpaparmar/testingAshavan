@@ -1,0 +1,44 @@
+{
+    "model": "RecentPostsSection",
+    "presets": [
+        {
+            "label": "3 columns card light",
+            "thumbnail": "images/recent-post-section-light.png",
+            "data": {
+                "variant": "variant-c",
+                "colors": "colors-a",
+                "title": "Latest from Nonstop Interop",
+                "subtitle": "",
+                "actions": [
+                    {
+                        "type": "Button",
+                        "label": "View all",
+                        "altText": "View all posts",
+                        "url": "/blog",
+                        "style": "secondary"
+                    }
+                ],
+                "recentCount": 3,
+                "showDate": true,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-24", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        }
+    ]
+}
