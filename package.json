@@ -32,7 +32,7 @@
         "webpack": "^5.79.0"
     },
     "devDependencies": {
-        "@stackbit/cms-git": "^1.0.1",
+        "@stackbit/cms-git": "^1.0.5",
         "@stackbit/types": "^2.0.1",
         "@types/glob": "^8.1.0",
         "@types/react": "^18.3.3",
