@@ -30,7 +30,7 @@ const config = defineStackbitConfig({
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
             // console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
-            const slug = getLocalizedFieldForLocale(document.fields.slug);
+            // const slug = getLocalizedFieldForLocale(document.fields.slug);
             // console.log('slug->>>>>>>>>>>>>>>>>>>>>', slug);
             const resultData = extractPath(document.manageUrl)
             // console.info('ammamamamaa', resultData, resultData.split('pages')[1].split('.md')[0].split('\\')[1]);
@@ -44,7 +44,7 @@ const config = defineStackbitConfig({
             // console.info('resultData', resultData)
             const finalResult = resultData && resultData?.replace('index', '')
             return {
-                stableId: document.id,
+                stableId: "/" + resultData,
                 urlPath: finalResult && finalResult?.replace('\\', '/'),
                 document,
                 isHomePage: resultData === "index"
