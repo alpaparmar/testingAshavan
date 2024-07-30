@@ -43,7 +43,7 @@ const config = defineStackbitConfig({
 
             const finalResult = resultData && resultData?.replace('index', '')
             return {
-                stableId: document?.id,
+                stableId: document?.srcProjectId,
                 urlPath: "/" + finalResult && finalResult?.replace('\\', '/'),
                 document,
                 isHomePage: resultData === "index"

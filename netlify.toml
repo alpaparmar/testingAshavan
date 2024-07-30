@@ -8,3 +8,9 @@
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[headers]]
+  for = "/*"
+[headers.values]
+  Access-Control-Allow-Origin = "*"
+  X-Frame-Options = "SAMEORIGIN"
