@@ -4,7 +4,7 @@
   functions = ".netlify/functions"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs^5.6.0"
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
