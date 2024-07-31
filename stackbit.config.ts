@@ -24,8 +24,6 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    modelExtensions: [{ name: "PageLayout", type: "page", urlPath: "/{slug}" },
-    { name: "PostFeedLayout", type: "page", urlPath: "/blog/{slug}" }],
     siteMap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);

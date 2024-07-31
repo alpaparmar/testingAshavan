@@ -10,7 +10,7 @@ export const PostFeedLayoutModel: Model = {
     hideContent: true,
     // extends: ['Seo'],
     singleInstance: true,
-    // urlPath: '/blog',
+    urlPath: '/blog',
     file: 'content/pages/blog/{index}.md',
     fields: [
         {
