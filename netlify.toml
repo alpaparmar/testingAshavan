@@ -4,9 +4,10 @@
   functions = ".netlify/functions"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+package = "@netlify/plugin-sitemap"
+
   [plugins.inputs]
-    buildDir = "."
+  buildDir = "."
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
