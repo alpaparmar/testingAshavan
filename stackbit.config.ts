@@ -25,7 +25,7 @@ const config = defineStackbitConfig({
         })
     ],
     // modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }],
-    sitemap: ({ documents, models }) => {
+    siteMap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
