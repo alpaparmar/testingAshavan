@@ -24,7 +24,8 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    // modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }],
+    modelExtensions: [{ name: "PageLayout", type: "page", urlPath: "/{slug}" },
+    { name: "PostFeedLayout", type: "page", urlPath: "/blog/{slug}" }],
     siteMap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
@@ -42,7 +43,7 @@ const config = defineStackbitConfig({
             // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
 
             const finalResult = resultData && resultData?.replace('index', '')
-            console.info('finalresulrrrrr', finalResult)
+            // console.info('finalresulrrrrr', finalResult)
             return {
                 stableId: document?.srcProjectId,
                 urlPath: "/" + finalResult && finalResult?.replace('\\', '/'),
