@@ -5,9 +5,8 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  
-[plugins.inputs]
-  buildDir = "."
+  [plugins.inputs]
+    buildDir = "."
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
