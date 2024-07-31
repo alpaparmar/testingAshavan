@@ -5,16 +5,7 @@ const nextConfig = {
     },
     trailingSlash: true,
     reactStrictMode: true,
-    swcMinify: true,
-    exportPathMap: async function (
-        defaultPathMap,
-        { dev, dir, outDir, distDir, buildId }
-      ) {
-        return {
-          '/': { page: '/' },
-          '/404': { page: '/' }
-        }
-      },
+    swcMinify: true
 };
 
 module.exports = nextConfig;
