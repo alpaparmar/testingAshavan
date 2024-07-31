@@ -15,7 +15,7 @@ const config = defineStackbitConfig({
         new GitContentSource({
             rootPath: __dirname,
             contentDirs: ['content'],
-            models: allModels,
+            models: [...allModels],
             assetsConfig: {
                 referenceType: 'static',
                 staticDir: 'public',
