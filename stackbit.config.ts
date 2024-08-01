@@ -47,7 +47,7 @@ const config = defineStackbitConfig({
             // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
 
             const finalResult = resultData && resultData?.replace('index', '')
-            const finalUrlPath = (finalResult && ("/" + finalResult?.replace('\\', '/'))).length > 0 ? finalResult && ("/" + finalResult?.replace('\\', '/')) : '/'
+            const finalUrlPath = (finalResult && ("/" + finalResult?.replace('\\', '/'))).length > 0 ? finalResult && ("/" + finalResult?.replace('\\', '/') + "/") : '/'
             // console.info('finalresulrrrrr', finalUrlPath)
             return {
                 stableId: document?.srcProjectId,
