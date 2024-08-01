@@ -7,7 +7,7 @@ export const PageLayoutModel: Model = {
     label: 'Page',
     hideContent: true,
     urlPath: '/{slug}',
-    filePath: '/{slug}.md',
+    filePath: 'content/pages/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     fieldGroups: [
         // ...seoFieldGroups,

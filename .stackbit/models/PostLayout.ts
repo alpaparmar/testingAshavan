@@ -6,8 +6,8 @@ export const PostLayoutModel: Model = {
     name: 'PostLayout',
     layout: 'PostLayout',
     label: 'Post',
-    // urlPath: '/blog/{slug}',
-    // filePath: 'content/pages/blog/{slug}.md',
+    urlPath: '/blog/{slug}',
+    filePath: 'content/pages/blog/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     extends: ['SeoNonstopInterop'],
     // fieldGroups: [

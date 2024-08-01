@@ -24,17 +24,17 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    modelExtensions: [
-        { name: 'PageLayout', type: 'page', urlPath: '/{slug}' },
-        { name: 'PostFeedLayout', type: 'page', urlPath: '/blog' },
-        { name: 'PostLayout', type: 'page', urlPath: '/blog/{slug}' }
-    ],
+    // modelExtensions: [
+    //     { name: 'PageLayout', type: 'page', urlPath: '/{slug}' },
+    //     { name: 'PostFeedLayout', type: 'page', urlPath: '/blog' },
+    //     { name: 'PostLayout', type: 'page', urlPath: '/blog/{slug}' }
+    // ],
     siteMap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         // console.info('agegegegeeee', pageModels)
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
-            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document.type);
+            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
             // const slug = getLocalizedFieldForLocale(document.fields.slug);
             // console.log('slug->>>>>>>>>>>>>>>>>>>>>', slug);
             const resultData = extractPath(document.manageUrl)
@@ -52,7 +52,7 @@ const config = defineStackbitConfig({
             return {
                 stableId: document?.srcProjectId,
                 urlPath: finalUrlPath,
-                document,
+                document: { ...document, manageUrl: finalUrlPath },
                 isHomePage: finalUrlPath === "/"
             };
         }).filter(Boolean) as SiteMapEntry[];
