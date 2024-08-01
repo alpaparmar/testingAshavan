@@ -28,7 +28,7 @@ const config = defineStackbitConfig({
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
-            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
+            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document.type);
             // const slug = getLocalizedFieldForLocale(document.fields.slug);
             // console.log('slug->>>>>>>>>>>>>>>>>>>>>', slug);
             const resultData = extractPath(document.manageUrl)
@@ -45,7 +45,7 @@ const config = defineStackbitConfig({
             return {
                 stableId: document?.srcProjectId,
                 urlPath: "/" + finalResult && finalResult?.replace('\\', '/'),
-                document,
+                document: document.type === 'document' ? { ...document, type: 'page' } : document,
                 isHomePage: resultData === "index"
             };
         }).filter(Boolean) as SiteMapEntry[];
