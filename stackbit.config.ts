@@ -24,9 +24,15 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    sitemap: ({ documents, models }) => {
+    modelExtensions: [
+        { name: 'PageLayout', type: 'page', urlPath: '/{slug}' },
+        { name: 'PostFeedLayout', type: 'page', urlPath: '/blog' },
+        { name: 'PostLayout', type: 'page', urlPath: '/blog/{slug}' }
+    ],
+    siteMap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
+        // console.info('agegegegeeee', pageModels)
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
             // console.info('document->>>>>>>>>>>>>>>>>>>>>', document.type);
             // const slug = getLocalizedFieldForLocale(document.fields.slug);

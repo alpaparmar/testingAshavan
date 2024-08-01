@@ -3,9 +3,6 @@
   publish = "out"
   functions = ".netlify/functions"
 
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
