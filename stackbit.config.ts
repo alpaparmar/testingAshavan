@@ -47,12 +47,13 @@ const config = defineStackbitConfig({
             // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
 
             const finalResult = resultData && resultData?.replace('index', '')
-            // console.info('finalresulrrrrr', finalResult && ("/" + finalResult?.replace('\\', '/')))
+            const finalUrlPath = (finalResult && ("/" + finalResult?.replace('\\', '/'))).length > 0 ? finalResult && ("/" + finalResult?.replace('\\', '/')) : '/'
+            // console.info('finalresulrrrrr', finalUrlPath)
             return {
                 stableId: document?.srcProjectId,
-                urlPath: finalResult && ("/" + finalResult?.replace('\\', '/')),
-                document: document.type === 'document' ? { ...document, type: 'page' } : document,
-                isHomePage: resultData === "index"
+                urlPath: finalUrlPath,
+                document,
+                isHomePage: finalUrlPath === "/"
             };
         }).filter(Boolean) as SiteMapEntry[];
     },
