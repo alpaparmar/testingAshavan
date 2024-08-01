@@ -6,9 +6,6 @@
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
-  [plugins.inputs]
-  buildDir = "public"
-
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
