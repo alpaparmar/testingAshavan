@@ -24,7 +24,7 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    siteMap: ({ documents, models }) => {
+    sitemap: ({ documents, models }) => {
         // console.info('models->>>>>>>>>>>>>>>>>', models);
         const pageModels = models.filter(m => m.type === "page").map(m => m.name);
         return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
@@ -41,10 +41,10 @@ const config = defineStackbitConfig({
             // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
 
             const finalResult = resultData && resultData?.replace('index', '')
-            // console.info('finalresulrrrrr', finalResult)
+            // console.info('finalresulrrrrr', finalResult && ("/" + finalResult?.replace('\\', '/')))
             return {
                 stableId: document?.srcProjectId,
-                urlPath: "/" + finalResult && finalResult?.replace('\\', '/'),
+                urlPath: finalResult && ("/" + finalResult?.replace('\\', '/')),
                 document: document.type === 'document' ? { ...document, type: 'page' } : document,
                 isHomePage: resultData === "index"
             };
