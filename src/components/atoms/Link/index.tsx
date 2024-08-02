@@ -9,8 +9,8 @@ export default function Link({ children, href, ...other }) {
     if (internal) {
         return (
             <Annotated content={{ ...other }}>
-                <NextLink href={href}>
-                    <a {...other}>{children}</a>
+                <NextLink href={href} {...other}>
+                    {children}
                 </NextLink>
             </Annotated>
         );
