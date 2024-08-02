@@ -8,7 +8,7 @@
         "audit": "npm audit",
         "fix": "npm audit fix",
         "dev": "next dev",
-        "build": "next build",
+        "build": "next build && next export",
         "start": "next start",
         "export": "next export",
         "validate": "stackbit validate",
