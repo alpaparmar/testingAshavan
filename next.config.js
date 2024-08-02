@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: 'export',
+    distDir: 'out',
     env: {
         stackbitPreview: process.env.STACKBIT_PREVIEW
     },
