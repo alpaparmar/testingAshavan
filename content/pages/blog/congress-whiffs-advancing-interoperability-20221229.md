@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: congress-whiffs-advancing-interoperability-20221229
 metaTitle: Congress whiffs again on advancing interoperability - Nonstop Interop
 metaDescription: >-
   It’s time for Congress to end the quarter-century ban on funding for a

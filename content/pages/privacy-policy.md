@@ -1,5 +1,6 @@
 ---
 type: PageLayout
+slug: privacy-policy
 metaTitle: null
 metaDescription: >-
   We take your privacy seriously. Our Privacy Policy outlines how we use cookies

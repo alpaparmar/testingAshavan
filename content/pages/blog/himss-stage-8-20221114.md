@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: himss-stage-8-20221114
 metaTitle: It's time for HIMSS Stage 8 - Nonstop Interop
 metaDescription: >-
   We need a new HIMSS Stage 8 to guide providers in their interoperability

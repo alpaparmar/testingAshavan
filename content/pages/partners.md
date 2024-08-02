@@ -1,6 +1,7 @@
 ---
 type: PageLayout
 layout: PageLayout
+slug: partners
 metaTitle: null
 metaDescription: >-
   We collaborate with leading companies to deliver exceptional value and service

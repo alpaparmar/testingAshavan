@@ -1,5 +1,6 @@
 ---
 type: PageLayout
+slug: success-stories
 metaTitle: null
 metaDescription: >-
   Find out how we've made the best choice the easiest one for businesses and

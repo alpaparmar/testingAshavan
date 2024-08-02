@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: uscdi-power-write-access-20220930
 metaTitle: USCDI's power will be stifled until write access is required - Nonstop Interop
 metaDescription: >-
   USCDI can’t reach its full potential as long as the regulations for CHIT

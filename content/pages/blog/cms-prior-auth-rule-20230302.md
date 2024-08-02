@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: cms-prior-auth-rule-20230302
 metaTitle: 'CMS'' prior auth rule: game-changer or hot mess? - Nonstop Interop'
 metaDescription: >-
   CMS needs to be bolder and more prescriptive to ensure standardized prior auth

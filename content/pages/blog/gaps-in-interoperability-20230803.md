@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: gaps-in-interoperability-20230803
 metaTitle: The most significant gaps in interoperability - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

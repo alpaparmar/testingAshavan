@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: interoperability-success-amazon-one-medical-20220808
 metaTitle: >-
   Interoperability will drive the success of Amazon's One Medical acquisition -
   Nonstop Interop

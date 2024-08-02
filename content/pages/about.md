@@ -1,5 +1,6 @@
 ---
 type: PageLayout
+slug: about
 metaTitle: null
 metaDescription: >-
   Learn about our unique name and company mission, discover our core qualities

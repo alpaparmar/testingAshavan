@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: biggest-news-interoperability-20231128
 metaTitle: The biggest news in interoperability isn't in healthcare - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: what-if-ehr-fails-20230315
 metaTitle: What if an EHR fails? - Nonstop Interop
 metaDescription: >-
   While the comparisons aren't exact, we can draw valuable lessons for

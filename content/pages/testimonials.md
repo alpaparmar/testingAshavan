@@ -1,5 +1,6 @@
 ---
 type: PageLayout
+slug: testimonials
 metaDescription: Our customers praise our work. Hear from them about our impact.
 addTitleSuffix: true
 metaTags:

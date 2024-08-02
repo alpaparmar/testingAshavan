@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: perception-the-difference-for-interoperability-20230412
 metaTitle: Perception makes all the difference for interoperability - Nonstop Interop
 metaDescription: >-
   We can't perfectly define interoperability, but situation by situation, we

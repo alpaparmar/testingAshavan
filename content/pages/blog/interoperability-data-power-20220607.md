@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: interoperability-data-power-20220607
 addTitleSuffix: true
 metaTags:
   - type: MetaTag

@@ -10,14 +10,32 @@ export const PostFeedLayoutModel: Model = {
     hideContent: true,
     // extends: ['Seo'],
     singleInstance: true,
-    urlPath: '/blog',
-    file: 'content/pages/blog/{index}.md',
+    // urlPath: '/blog',
+    filePath: 'content/pages/blog/index.md',
+    fieldGroups: [
+        {
+            name: 'settings',
+            label: 'Settings',
+            icon: 'gear'
+        },
+    ],
     fields: [
         {
             type: 'string',
             name: 'title',
             label: 'Title',
             default: 'This is a page title'
+        },
+        {
+            type: 'slug',
+            name: 'slug',
+            label: 'Slug',
+            description:
+                'The URL path of this page relative to site root. For example, the site root page would be "/", and post page would be "posts/new-post/"',
+            required: true,
+            hidden: false,
+            localized: false,
+            group: 'settings'
         },
         {
             type: 'string',

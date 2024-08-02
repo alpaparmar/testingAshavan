@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: epic-partners-pals-20230912
 metaTitle: >-
   Epic's Partners and Pals smells like favoritism, and that stinks for
   interoperability - Nonstop Interop

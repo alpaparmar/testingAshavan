@@ -1,6 +1,7 @@
 ---
 type: PageLayout
 layout: PageLayout
+slug: search
 metaTitle: null
 metaDescription: 'Search for information, blog posts, and more on our website'
 addTitleSuffix: true

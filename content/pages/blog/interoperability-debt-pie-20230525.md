@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: interoperability-debt-pie-20230525
 metaTitle: Interoperability's tiny slice of the debt pie - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

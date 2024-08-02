@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: long-covid-interoperability-20220921
 metaTitle: >-
   Long COVID is a perfect example of the need for greater interoperability -
   Nonstop Interop

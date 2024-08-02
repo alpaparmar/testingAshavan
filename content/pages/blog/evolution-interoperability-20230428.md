@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: evolution-interoperability-20230428
 metaTitle: The evolution of interoperability (part 1) - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

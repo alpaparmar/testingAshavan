@@ -1,6 +1,7 @@
 ---
 type: PostLayout
 layout: PostLayout
+slug: vaccines-your-body-20221026
 metaTitle: Vaccines move through more than just your body - Nonstop Interop
 metaDescription: >-
   Healthcare IT has played an important role in vaccine administration and

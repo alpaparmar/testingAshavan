@@ -1,5 +1,6 @@
 ---
 type: PageLayout
+slug: services
 metaTitle: null
 metaDescription: >-
   We provide healthcare interoperability consulting services to healthcare
