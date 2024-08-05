@@ -1,5 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import Image from 'next/image';
 import { Annotated } from '@/components/Annotated';
 
 export default function ImageBlock(props) {
@@ -21,7 +22,7 @@ export default function ImageBlock(props) {
 
     return (
         <Annotated content={props}>
-            <img
+            <Image
                 id={cssId}
                 className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', cssClasses)}
                 src={url}
