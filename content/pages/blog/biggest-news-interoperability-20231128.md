@@ -5,6 +5,7 @@ metaTitle: The biggest news in interoperability isn't in healthcare - Nonstop In
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: biggest-news-interoperability-20231128
 metaTags:
   - type: MetaTag
     property: 'og:type'

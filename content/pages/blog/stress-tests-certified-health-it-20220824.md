@@ -12,6 +12,7 @@ metaTags:
     content: article
 title: Stress tests should be required for Certified Health IT
 date: '2022-08-24'
+slug: stress-tests-certified-health-it-20220824
 excerpt: >-
   If we are to have truly seamless integration in healthcare, we must have
   standards that enforce the speed and availability of data exchange, and CHIT

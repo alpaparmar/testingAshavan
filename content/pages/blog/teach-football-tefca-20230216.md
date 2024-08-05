@@ -3,6 +3,7 @@ type: PostLayout
 layout: PostLayout
 addTitleSuffix: true
 socialImage: /images/Patrick-Mahomes-TEFCA-1676527200.jpg
+slug: teach-football-tefca-20230216
 metaTags:
   - type: MetaTag
     property: 'og:title'

@@ -5,6 +5,7 @@ metaTitle: It pays to incentivize interoperability - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: incentivize-interoperability-20240125
 metaTags:
   - type: MetaTag
     property: 'og:type'

@@ -7,6 +7,7 @@ metaDescription: >-
   know when it's there and when it isn't.
 addTitleSuffix: true
 socialImage: /images/Angel-reese-found-interoperability.jpg
+slug: perception-the-difference-for-interoperability-20230412
 metaTags:
   - type: MetaTag
     property: 'og:title'

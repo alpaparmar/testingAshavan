@@ -6,6 +6,7 @@ metaDescription: >-
   question.
 addTitleSuffix: true
 socialImage: null
+slug: contact
 metaTags:
   - property: 'og:title'
     content: Contact Us - Ashavan

@@ -1,6 +1,7 @@
 ---
 type: PageLayout
 metaTitle: null
+slug: success-stories
 metaDescription: >-
   Find out how we've made the best choice the easiest one for businesses and
   healthcare providers

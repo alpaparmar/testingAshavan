@@ -5,6 +5,7 @@ metaTitle: We should teach our kids about APIs - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: teach-kids-apis-20231027
 metaTags:
   - type: MetaTag
     property: 'og:type'

@@ -8,6 +8,7 @@ export const PostLayoutModel: Model = {
     label: 'Post',
     // urlPath: '/blog/{slug}',
     // filePath: 'content/pages/blog/{slug}.md',
+    filePath: 'content/pages/blog/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     extends: ['SeoNonstopInterop'],
     // fieldGroups: [
@@ -18,6 +19,13 @@ export const PostLayoutModel: Model = {
     //         icon: 'palette'
     //     }
     // ],
+    fieldGroups: [
+        {
+            name: 'settings',
+            label: 'Settings',
+            icon: 'gear'
+        }
+    ],
     fields: [
         {
             type: 'string',
@@ -194,6 +202,17 @@ export const PostLayoutModel: Model = {
                     recentCount: 3
                 }
             ]
+        },
+        {
+            type: 'slug',
+            name: 'slug',
+            label: 'Slug',
+            description:
+                'The URL path of this page relative to site root. For example, the site root page would be "/", and post page would be "posts/new-post/"',
+            required: true,
+            hidden: false,
+            localized: false,
+            group: 'settings'
         },
         // ...seoFields
     ]

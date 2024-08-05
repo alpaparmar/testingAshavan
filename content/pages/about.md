@@ -6,6 +6,7 @@ metaDescription: >-
   and actions, and meet our founder.
 addTitleSuffix: true
 socialImage: null
+slug: about
 metaTags:
   - property: 'og:url'
     content: 'https://ashavan.co/about'

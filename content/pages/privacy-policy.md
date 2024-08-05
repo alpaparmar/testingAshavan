@@ -6,6 +6,7 @@ metaDescription: >-
   and data collected on this website.
 addTitleSuffix: true
 socialImage: null
+slug: privacy-policy
 metaTags:
   - property: 'og:title'
     content: Privacy Policy - Ashavan

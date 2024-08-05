@@ -8,6 +8,7 @@ metaDescription: >-
   vaccine-related integrations.
 addTitleSuffix: true
 socialImage: /images/Vaccine-1666760400.jpg
+slug: vaccines-your-body-20221026
 metaTags:
   - type: MetaTag
     property: 'og:title'

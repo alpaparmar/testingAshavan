@@ -5,6 +5,7 @@ metaTitle: Webhooks are the biggest gap in today's interoperability - Nonstop In
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: webhooks-biggest-gap-interoperability-20230822
 metaTags:
   - type: MetaTag
     property: 'og:type'

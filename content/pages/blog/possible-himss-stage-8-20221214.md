@@ -6,6 +6,7 @@ metaDescription: Outlining the key pieces to include in a possible HIMSS Stage 8
 addTitleSuffix: true
 socialImage: /images/Jigsaw-puzzle-with-missing-piece-1670997600.jpg
 elementId: postContent
+slug: possible-himss-stage-8-20221214
 metaTags:
   - type: MetaTag
     property: 'og:title'

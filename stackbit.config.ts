@@ -1,11 +1,6 @@
-import { defineStackbitConfig, getLocalizedFieldForLocale, SiteMapEntry } from '@stackbit/types';
+import { defineStackbitConfig, DocumentStringLikeFieldNonLocalized, SiteMapEntry } from '@stackbit/types';
 import { GitContentSource } from '@stackbit/cms-git';
 import { allModels } from './.stackbit/models';
-
-const extractPath = (input) => {
-    const match = input.match(/content\\pages\\(.*)\.md$/);
-    return match ? match[1] : null;
-}
 
 const config = defineStackbitConfig({
     stackbitVersion: '~0.6.0',
@@ -24,37 +19,39 @@ const config = defineStackbitConfig({
             }
         })
     ],
-    // modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }],
-    siteMap: ({ documents, models }) => {
-        // console.info('models->>>>>>>>>>>>>>>>>', models);
-        const pageModels = models.filter(m => m.type === "page").map(m => m.name);
-        return documents.filter(d => pageModels.includes(d.modelName)).map(document => {
-            // console.info('document->>>>>>>>>>>>>>>>>>>>>', document);
-            const slug = getLocalizedFieldForLocale(document.fields.slug);
-            // console.log('slug->>>>>>>>>>>>>>>>>>>>>', slug);
-            const resultData = extractPath(document.manageUrl)
-            // console.info('ammamamamaa', resultData, resultData.split('pages')[1].split('.md')[0].split('\\')[1]);
-            //@ts-ignore
-            // console.log('slug.manageURL', )
-            //@ts-ignore
-            // if (!slug || !slug.value) return null;
-            //@ts-ignore
-            // const urlPath = "/" + slug.value.replace(/^\/|\/$/g, '')
-
-            // console.info('resultData', resultData)
-            const finalResult = resultData && resultData?.replace('index', '')
-            return {
-                stableId: document.id,
-                urlPath: finalResult && finalResult?.replace('\\', '/'),
-                document,
-                isHomePage: resultData === "index"
-            };
-        }).filter(Boolean) as SiteMapEntry[];
-    },
     presetSource: {
         type: 'files',
         presetDirs: ['./.stackbit/presets']
     },
-    styleObjectModelName: 'ThemeStyle'
+    styleObjectModelName: 'ThemeStyle',
+    siteMap: ({ documents, models }): SiteMapEntry[] => {
+        const pageModels = models.filter((model) => model.type === 'page').map((model) => model.name);
+        return documents
+            .filter((document) => pageModels.includes(document.modelName))
+            .map((document) => {
+                let slug = (document.fields.slug as DocumentStringLikeFieldNonLocalized)?.value;
+                if (!slug) return null;
+                /* Remove the leading slash in order to generate correct urlPath
+                regardless of whether the slug is '/', 'slug' or '/slug' */
+                slug = slug.replace(/^\/+/, '');
+                switch (document.modelName) {
+                    case 'PostFeedLayout':
+                        return {
+                            urlPath: '/blog',
+                            document: document
+                        };
+                    case 'PostLayout':
+                        return {
+                            urlPath: `/blog/${slug}`,
+                            document: document
+                        };
+                    default:
+                        return {
+                            urlPath: `/${slug}`,
+                            document: document
+                        };
+                }
+            });
+    }
 });
 export default config;

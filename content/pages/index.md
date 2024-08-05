@@ -1,6 +1,7 @@
 ---
 type: PageLayout
 title: Ashavan - Healthcare Interoperability Consulting
+slug: /
 sections:
   - type: HeroSection
     elementId: homepage-hero-1

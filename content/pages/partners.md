@@ -7,6 +7,7 @@ metaDescription: >-
   to our customers.
 addTitleSuffix: true
 socialImage: null
+slug: partners
 metaTags:
   - type: MetaTag
     property: 'og:title'

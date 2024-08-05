@@ -7,6 +7,7 @@ metaDescription: >-
   good in interoperability.
 addTitleSuffix: true
 socialImage: /images/Kevin-McCarthy-interoperability-sign-1673244000.jpg
+slug: speaker-finish-strong-interoperability-20230109
 metaTags:
   - type: MetaTag
     property: 'og:title'

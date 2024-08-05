@@ -5,6 +5,7 @@ metaTitle: null
 metaDescription: 'Search for information, blog posts, and more on our website'
 addTitleSuffix: true
 socialImage: null
+slug: search
 metaTags:
   - type: MetaTag
     property: 'og:title'

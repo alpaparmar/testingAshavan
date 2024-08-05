@@ -7,6 +7,7 @@ metaTitle: >-
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: epic-partners-pals-20230912
 metaTags:
   - type: MetaTag
     property: 'og:type'

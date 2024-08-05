@@ -5,6 +5,7 @@ metaTitle: >-
   Interoperability will drive the success of Amazon's One Medical acquisition -
   Nonstop Interop
 addTitleSuffix: true
+slug: interoperability-success-amazon-one-medical-20220808
 socialImage: >-
   /images/Doctor-using-a-smartphone-and-a-smartphone-with-amazon-logo-1659934800.png
 metaTags:

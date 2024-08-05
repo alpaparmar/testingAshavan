@@ -10,6 +10,7 @@ metaDescription: >-
   healthcare interoperability.
 addTitleSuffix: true
 socialImage: /images/Two-coins-on-table-1665637200.jpg
+slug: oauth-most-important-standard-interoperability-20221013
 metaTags:
   - type: MetaTag
     property: 'og:title'

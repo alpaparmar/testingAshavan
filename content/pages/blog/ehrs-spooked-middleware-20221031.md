@@ -8,6 +8,7 @@ metaDescription: >-
   software had access to EHRs’ integration options.
 addTitleSuffix: true
 socialImage: /images/Jack-o-lantern-head-1667192400.jpg
+slug: ehrs-spooked-middleware-20221031
 metaTags:
   - type: MetaTag
     property: 'og:description'

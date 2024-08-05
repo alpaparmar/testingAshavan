@@ -10,6 +10,7 @@ metaDescription: >-
   nothing less.
 addTitleSuffix: true
 socialImage: /images/SARS-CoV-2-1663736400.jpg
+slug: long-covid-interoperability-20220921
 metaTags:
   - type: MetaTag
     property: 'og:title'

@@ -7,6 +7,7 @@ metaDescription: >-
   healthcare IT market were more condensed?
 addTitleSuffix: true
 socialImage: /images/Mural-of-monopoly-man-1658206800.jpg
+slug: monopoly-solution-interoperability-20220719
 metaTags:
   - type: MetaTag
     property: 'og:description'

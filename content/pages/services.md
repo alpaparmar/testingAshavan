@@ -1,6 +1,7 @@
 ---
 type: PageLayout
 metaTitle: null
+slug: services
 metaDescription: >-
   We provide healthcare interoperability consulting services to healthcare
   organizations, payers, technology companies, and others.

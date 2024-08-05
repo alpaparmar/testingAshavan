@@ -8,6 +8,7 @@ metaDescription: >-
   penalties and disincentives.
 addTitleSuffix: true
 socialImage: /images/100-dollar-bills-1665032400.jpg
+slug: hhs-oig-past-due-info-blocking-20221006
 metaTags:
   - type: MetaTag
     property: 'og:title'

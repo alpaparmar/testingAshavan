@@ -5,6 +5,7 @@ metaTitle: What's a fair price for interoperability? - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
+slug: fair-price-interoperability-20230622
 metaTags:
   - type: MetaTag
     property: 'og:type'
