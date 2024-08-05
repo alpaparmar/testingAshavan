@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: fair-price-interoperability-20230622
 metaTitle: What's a fair price for interoperability? - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

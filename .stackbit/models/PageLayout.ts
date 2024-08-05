@@ -6,15 +6,11 @@ export const PageLayoutModel: Model = {
     name: 'PageLayout',
     label: 'Page',
     hideContent: true,
-    filePath: 'content/pages/{slug}.md',
+    urlPath: '/{slug}',
+    filePath: '/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     fieldGroups: [
         // ...seoFieldGroups,
-        {
-            name: 'settings',
-            label: 'Settings',
-            icon: 'gear'
-        },
         {
             name: 'styles',
             label: 'Styles',
@@ -28,17 +24,6 @@ export const PageLayoutModel: Model = {
             label: 'Title',
             default: 'This is a new page',
             required: true
-        },
-        {
-            type: 'slug',
-            name: 'slug',
-            label: 'Slug',
-            description:
-                'The URL path of this page relative to site root. For example, the site root page would be "/", and page would be "new-page"',
-            required: true,
-            hidden: false,
-            localized: false,
-            group: 'settings'
         },
         {
             type: 'list',

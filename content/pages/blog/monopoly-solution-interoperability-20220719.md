@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: monopoly-solution-interoperability-20220719
 metaTitle: Is monopoly the solution for interoperability? - Nonstop Interop
 metaDescription: >-
   Could we see benefits to our pursuit of frictionless data exchange if the

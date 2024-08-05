@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: incentivize-interoperability-20240125
 metaTitle: It pays to incentivize interoperability - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

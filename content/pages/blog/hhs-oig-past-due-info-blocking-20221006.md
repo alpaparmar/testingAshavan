@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: hhs-oig-past-due-info-blocking-20221006
 metaTitle: HHS and the OIG are past due on the info blocking penalties - Nonstop Interop
 metaDescription: >-
   The information blocking regulations have reached their full scope, but they

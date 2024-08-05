@@ -1,7 +1,6 @@
 ---
 type: PageLayout
 title: Ashavan - Healthcare Interoperability Consulting
-slug: /
 sections:
   - type: HeroSection
     elementId: homepage-hero-1
@@ -257,7 +256,6 @@ sections:
           USCDI, HIPAA, and more
         featuredImage:
           type: ImageBlock
-          elementId: ''
           url: /images/Education-1646114400.webp
           altText: Two stacked books with a mortarboard on top
         actions: []

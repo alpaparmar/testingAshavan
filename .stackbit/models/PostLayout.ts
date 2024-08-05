@@ -7,17 +7,17 @@ export const PostLayoutModel: Model = {
     layout: 'PostLayout',
     label: 'Post',
     // urlPath: '/blog/{slug}',
-    filePath: 'content/pages/blog/{slug}.md',
+    // filePath: 'content/pages/blog/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     extends: ['SeoNonstopInterop'],
-    fieldGroups: [
-        ...seoFieldGroups,
-        {
-            name: 'settings',
-            label: 'Settings',
-            icon: 'gear'
-        },
-    ],
+    // fieldGroups: [
+    //     ...seoFieldGroups,
+    //     {
+    //         name: 'styles',
+    //         label: 'Styles',
+    //         icon: 'palette'
+    //     }
+    // ],
     fields: [
         {
             type: 'string',
@@ -25,17 +25,6 @@ export const PostLayoutModel: Model = {
             label: 'Title',
             default: 'This is a blog post title',
             required: true
-        },
-        {
-            type: 'slug',
-            name: 'slug',
-            label: 'Slug',
-            description:
-                'The URL path of this page relative to site root. For example, the site root page would be "/", and post page would be "posts/new-post/"',
-            required: true,
-            hidden: false,
-            localized: false,
-            group: 'settings'
         },
         {
             type: 'date',

@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: speaker-finish-strong-interoperability-20230109
 metaTitle: 'Mr. Speaker, let''s finish strong for interoperability - Nonstop Interop'
 metaDescription: >-
   Some ideas for how Congress can use its legislative powers to be a force for

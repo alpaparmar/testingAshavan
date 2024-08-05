@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: possible-himss-stage-8-20221214
 metaTitle: Defining a possible HIMSS Stage 8 - Nonstop Interop
 metaDescription: Outlining the key pieces to include in a possible HIMSS Stage 8
 addTitleSuffix: true

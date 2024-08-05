@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: tesla-flawed-approach-interoperability-20230614
 metaTitle: >-
   Tesla's charging deals illustrate a flawed approach to interoperability -
   Nonstop Interop

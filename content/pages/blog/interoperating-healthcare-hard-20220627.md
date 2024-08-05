@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: interoperating-healthcare-hard-20220627
 metaTitle: Why interoperating in healthcare is hard - Nonstop Interop
 metaDescription: >-
   Learn about the three key reasons why healthcare interoperability remains

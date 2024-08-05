@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: teach-kids-apis-20231027
 metaTitle: We should teach our kids about APIs - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

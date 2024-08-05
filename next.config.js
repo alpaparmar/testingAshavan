@@ -1,6 +1,4 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
         stackbitPreview: process.env.STACKBIT_PREVIEW

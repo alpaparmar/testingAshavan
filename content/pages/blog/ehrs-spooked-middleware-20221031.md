@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: ehrs-spooked-middleware-20221031
 metaTitle: 'Dear EHRs, don''t be spooked by middleware - Nonstop Interop'
 metaDescription: >-
   Middleware has been a scary concept for EHRs; the fears are misplaced,

@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: stress-tests-certified-health-it-20220824
 metaTitle: Stress tests should be required for Certified Health IT - Nonstop Interop
 addTitleSuffix: true
 metaTags:

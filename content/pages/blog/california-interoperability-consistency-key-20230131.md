@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: california-interoperability-consistency-key-20230131
 metaDescription: >-
   California's Data Exchange Framework is a welcome and needed accelerator for
   interoperability,  but it must avoid policies that push healthcare

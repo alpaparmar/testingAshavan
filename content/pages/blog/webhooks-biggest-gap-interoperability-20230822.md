@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: webhooks-biggest-gap-interoperability-20230822
 metaTitle: Webhooks are the biggest gap in today's interoperability - Nonstop Interop
 metaDescription: null
 addTitleSuffix: true

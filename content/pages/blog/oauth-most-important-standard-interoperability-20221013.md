@@ -1,7 +1,6 @@
 ---
 type: PostLayout
 layout: PostLayout
-slug: oauth-most-important-standard-interoperability-20221013
 metaTitle: >-
   OAuth - not FHIR - has been the most important standard for modern
   interoperability - Nonstop Interop

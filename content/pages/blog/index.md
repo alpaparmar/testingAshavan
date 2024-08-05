@@ -1,7 +1,6 @@
 ---
 type: PostFeedLayout
 title: Blog
-slug: blog
 addTitleSuffix: true
 metaTags:
   - type: MetaTag
